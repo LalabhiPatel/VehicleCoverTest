@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35169813401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "check-registration-number;",
+        "after": [
+          {
+            "result": {
+              "duration": 190094,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1385566985,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on vehicle registration page",
+            "match": {
+              "location": "VehicleReg_StepDef.user_is_on_vehicle_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 620927434,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the vehicle registration no \"OV12UYY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV12UYY",
+                  "offset": 40
+                }
+              ],
+              "location": "VehicleReg_StepDef.user_enter_the_vehicle_registration_no(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630447733,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on find button",
+            "match": {
+              "location": "VehicleReg_StepDef.user_click_on_find_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614717709,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should able to see his vehicle cover details",
+            "match": {
+              "location": "VehicleReg_StepDef.user_should_able_to_see_his_vehicle_cover_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "check registration number",
+    "description": "As a end User\r\nI want to enter registration number\r\nso that i can check that vehicle exist or not",
+    "id": "check-registration-number",
+    "keyword": "Feature",
+    "uri": "RegistrationPage.feature"
+  }
+]
